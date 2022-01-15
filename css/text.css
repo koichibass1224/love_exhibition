@@ -1,0 +1,5 @@
+.line_vertical{
+  writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode:vertical-rl;   
+}
