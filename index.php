@@ -168,7 +168,7 @@
                          data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
                          data-start="1200" data-splitin="none" data-splitout="none">
                         <h1 class="text-capitalize alt-font text-white index-4-slider-h1 display-inline logo_block2">
-                            2021.2.14-16</h1>
+                            2021.2.11-13</h1>
                     </div>
                     <div class="tp-caption tp-resizeme d-none d-sm-block"
                         data-x="['center']" data-hoffset="['-250']"
@@ -245,7 +245,7 @@
                      data-start="1200" data-splitin="none" data-splitout="none">
                     <h1 class="text-center alt-font text-white index-4-slider-h1 display-inline logo_block2"
                     style="font-size:30px;">
-                        2021.2.14-16</h1>
+                        2021.2.11-13</h1>
                 </div>
                 <div class="tp-caption tp-resizeme d-block d-sm-none"
                     data-x="['center']" data-hoffset="['60']"

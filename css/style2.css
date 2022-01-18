@@ -15,11 +15,17 @@
   margin-top:100px;
 }
 
-.alt-font {
-  line-height:50px;
-}
+.alt-font 
 
 @media (max-width: 992px) {
+
+  .logo_block {
+    font-size:4em;
+  }
+  .logo_block2{
+    font-size:3.5em;
+  } 
+
 .services-icon{
   max-height:300px;
   overflow: hidden;
