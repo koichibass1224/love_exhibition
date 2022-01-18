@@ -15,7 +15,15 @@
   margin-top:100px;
 }
 
-.alt-font 
+.company_logo img:hover {
+	opacity: 0.5 ;
+}
+
+.sns_icon{
+  margin:5px;
+  font-size: 150px; 
+  /* color:white;  */
+}
 
 @media (max-width: 992px) {
 
