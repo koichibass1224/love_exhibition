@@ -11,16 +11,22 @@
   background-color:#221E1F ;
 }
 
-/* @media (max-width: 992px) {
-.logo_block {
-  font-size:4em;
+.services-icon{
+  margin-top:100px;
 }
-.logo_block2{
-  font-size:3.5em;
-} 
-}*/
+
+.alt-font {
+  line-height:50px;
+}
+
+@media (max-width: 992px) {
+.services-icon{
+  max-height:300px;
+  overflow: hidden;
+  top: 120%;
+}
 
 .services-icon img{
-  max-width:300px;
-  overflow:hidden;
+  /* margin-top: -10%; */
+}
 }
