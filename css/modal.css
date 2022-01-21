@@ -1,0 +1,34 @@
+.modal-open {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 0!important;
+}
+
+.modal_contents{
+  margin:10%;
+  max-width: 800px;
+}
+
+.close_modal{
+  font-size:500px;
+}
+
+.news_content li:hover{
+	opacity: 0.5 ;
+  color:red;
+}
+
+
+@media only screen and (min-width: 0px)
+    and (max-width: 768px){
+
+      .modal_body{
+        max-width: 1200px;
+        margin:10% auto;
+      }
+    }

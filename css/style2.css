@@ -42,5 +42,113 @@
 
 .services-icon img{
   /* margin-top: -10%; */
+  /* max-height:300px;
+  overflow: hidden;
+  top: 120%; */
 }
+}
+
+
+/* artsit_modal */
+.services-align h4{
+  padding:3%;
+  color:white;
+}
+
+.services-align img{
+  padding:3%;
+  /* background-color: #3D214E; */
+}
+/* .services-icon{
+  background-color: #3D214E;
+} */
+
+@media (min-width: 992px) {
+
+.art1 img{
+  background-color:#3D214E ;
+}
+.art2 img{
+  background-color:#093242 ;
+}
+.art3 img{
+  background-color:#3B8DC5 ;
+}
+.art4 img{
+  background-color:#E5B686 ;
+}
+.art5 img{
+  background-color:#74151A ;
+}
+.art6 img{
+  background-color:#083592 ;
+}
+.art7 img{
+  background-color:#BBBFB8 ;
+}
+.art8 img{
+  background-color:#D7D5D6 ;
+}
+.art9 img{
+  background-color:#000000 ;
+}
+.art10 img{
+  background-color:#0C0816 ;
+}
+.art11 img{
+  background-color:#0F214C ;
+}
+.art12 img{
+  background-color:#28AFBC ;
+}
+.art13 img{
+  background-color:#050C22 ;
+}
+.art14 img{
+  background-color:#61273C ;
+}
+}
+
+
+.art1 h4{
+  background-color:#3D214E ;
+}
+.art2 h4{
+  background-color:#093242 ;
+}
+.art3 h4{
+  background-color:#3B8DC5 ;
+}
+.art4 h4{
+  background-color:#E5B686 ;
+}
+.art5 h4{
+  background-color:#74151A ;
+}
+.art6 h4{
+  background-color:#083592 ;
+}
+.art7 h4{
+  background-color:#BBBFB8 ;
+}
+.art8 h4{
+  background-color:#D7D5D6 ;
+}
+.art9 h4{
+  background-color:#000000 ;
+}
+.art10 h4{
+  background-color:#0C0816 ;
+}
+.art11 h4{
+  background-color:#0F214C ;
+}
+.art12 h4{
+  background-color:#28AFBC ;
+}
+.art13 h4{
+  background-color:#050C22 ;
+}
+.art14 h4{
+  background-color:#61273C ;
 }
