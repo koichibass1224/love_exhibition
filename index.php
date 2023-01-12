@@ -1,3 +1,6 @@
+<?php
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -5,21 +8,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta property="og:title" content="〇〇＝愛展" />
+    <meta property="og:title" content="愛展示会" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://loveexhibition.netlify.app" />
-    <meta property="og:sitename" content="〇〇＝愛展" />
-    <meta property="og:description" content="〇〇＝愛展"/>
+    <meta property="og:sitename" content="愛展示会" />
+    <meta property="og:description" content="愛展示会"/>
     <meta property="og:image" content="https://loveexhibition.netlify.app/image/icon.png" />
     <meta property="twitter:card" content="summary">
 
-    <title>〇〇＝愛展</title>
+    <title>愛展示</title>
     <!-- favicon -->
     <link rel="icon" href="image/icon.png">
     <!-- css libraries-->
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <!-- font awesome -->
-    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <!-- themify-icons -->
     <link rel="stylesheet" href="css/themify-icons.css"/>
     <!-- animate -->
@@ -36,17 +39,9 @@
     <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
     <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
     <!-- style -->
-    <link rel="stylesheet" href="css/import.css"/>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PG5HSNS6GW"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-PG5HSNS6GW');
-    </script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style2.css"/>
+    <link rel="stylesheet" href="css/text.css"/>
 
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@900&display=swap');
@@ -69,7 +64,7 @@
 <div id="loader">
     <div class="load-inner col-12 d-flex align-items-center"style="max-width:1200px;">
         <h1 class="" style="margin:0 auto;">
-            〇〇＝愛展</h1>
+            愛＝◯展</h1>
     </div>
 </div>
 <!-- Loader Ends -->
@@ -82,7 +77,7 @@
             <div class="container-fluid">
               
                 <!--Sidemenu Button-->
-                <div class="col-12 text-right side-menu.left">
+                <div class="col-12 text-right">
                 <a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle" style="background-color: brown;">
                     <span></span>
                     <span></span>
@@ -95,13 +90,8 @@
     <div class="side-menu"  >
         <div class="inner-wrapper">
             <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
-            <nav class="side-nav w-50">
+            <nav class="side-nav w-100">
                 <ul class="navbar-nav main-font">
-                    <li class="nav-item">
-                        <p>〇〇＝愛展</p>
-                    </br></br>
-                    </li>
-
                     <li class="nav-item">
                         <a class="nav-link pagescroll" href="#home">Home</a>
                     </li>
@@ -115,9 +105,9 @@
                         <a class="nav-link pagescroll" href="#access">Access</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pagescroll" href="#support">Support</a>
+                        <a class="nav-link pagescroll" href="#support">support</a>
                     </li>
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link pagescroll" href="#twitter">twitter</a>
                     </li>
                     <li class="nav-item">
@@ -125,7 +115,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link pagescroll" href="#contact">Contact</a>
-                    </li> -->
+                    </li>
                 </ul>
             </nav>
 
@@ -182,7 +172,7 @@
                     </div>
                     <div class="tp-caption tp-resizeme d-none d-sm-block"
                         data-x="['center']" data-hoffset="['-250']"
-                        data-y="['middle']" data-voffset="['200']"
+                        data-y="['middle']" data-voffset="['180']"
                          data-whitespace="nowrap" data-responsive_offset="on"
                          data-width="['none','none','none','none']" data-type="text"
                          data-textalign="['center','center','center','center']"
@@ -210,7 +200,7 @@
                         style="
                         font-size:4.0em;"
                         >
-                        「〇〇＝愛」
+                        「〇〇=愛」
                             <span class="title2"
                             style="
                             font-size: 2.0em;">展</span></h2>
@@ -283,7 +273,7 @@
 
 <!-- news -->
 <section class="text-center price text-lg-left mr-5 ml-5" id="news">
-    <div class="container-fluid news_content">
+    <div class="container-fluid">
         <div class="row align-items-baseline">
             <div class="col-12 mt-4 mb-4 text-center">
                 <h2>NEWS</h2>
@@ -293,82 +283,56 @@
             </div>
         </div>
 
-        <!-- news1 -->
         <div class="row price-head align-items-end pb-5 wow fadeInUp">
             <div class="col-lg-2 main-heading">
-                <p class="mb-0">2022年1月20日</p>
+                <p class="mb-0">2021.12.24</p>
             </div>
             <div class="col-lg-1 divider">
                 <div class="price-line"></div>
             </div>
             <div class="col-lg-9">
-            <a data-toggle="modal" data-target="#N_modal1">
                 <ul class="price-list">
-                    <li class="deal-item">公式webサイトがオープンしました。</li>
+                    <li class="deal-item">てきすとてきすとてきすとてきすとてきすと</li>
                 </ul>
-            </a>
             </div>
         </div>
+ 
+        <div class="row price-head align-items-end pb-5 wow fadeInUp">
+            <div class="col-lg-2 main-heading">
 
-        <!-- news2 -->
-        <div class="row price-head align-items-end pb-5 wow fadeInUp">
-            <div class="col-lg-2 main-heading">
-                <p class="mb-0">2022年1月21日</p>
+                <p class="mb-0">2021.12.24</p>
             </div>
             <div class="col-lg-1 divider">
                 <div class="price-line"></div>
             </div>
             <div class="col-lg-9">
-            <a data-toggle="modal" data-target="#N_modal2">
                 <ul class="price-list">
-                    <li class="deal-item">クラウドファンディングが始まりました。</li>
+                    <li class="deal-item">てきすとてきすとてきすとてきすとてきすと</li>
                 </ul>
-            </a>
             </div>
         </div>
-
-         <!-- news3 -->
+        <!--price item 1-->
         <div class="row price-head align-items-end pb-5 wow fadeInUp">
             <div class="col-lg-2 main-heading">
-                <p class="mb-0">2022年1月21日</p>
+                <p class="mb-0">2021.12.24</p>
             </div>
             <div class="col-lg-1 divider">
                 <div class="price-line"></div>
             </div>
             <div class="col-lg-9">
-            <a data-toggle="modal" data-target="#N_modal3">
                 <ul class="price-list">
-                    <li class="deal-item">デザインフェスタギャラリースケジュール公開しました。</li>
+                    <li class="deal-item">てきすとてきすとてきすとてきすとてきすと</li>
                 </ul>
-            </a>
             </div>
         </div>
-
-         <!-- news4 -->
-        <div class="row price-head align-items-end pb-5 wow fadeInUp">
-            <div class="col-lg-2 main-heading">
-                <p class="mb-0">2022年1月21日</p>
-            </div>
-            <div class="col-lg-1 divider">
-                <div class="price-line"></div>
-            </div>
-            <div class="col-lg-9">
-            <a data-toggle="modal" data-target="#N_modal4">
-                <ul class="price-list">
-                    <li class="deal-item">お申込みフォーム公開されました。</li>
-                </ul>
-            </a>
-            </div>
-        </div>
+    
     </div>
 </section>
 
 
 <!--About-->
-<!-- <section class="text-center text-lg-left mr-3 ml-3" id="about-us"> -->
-<section class="text-left mr-3 ml-3" id="about-us">
+<section class="text-center text-lg-left mr-3 ml-3" id="about-us">
     <div class="container-fluid">
-
         <div class="row pb-lg-5 p-5" id="about_us" 
         style="color:white;
         background-color: #221E1F !important;">
@@ -391,169 +355,61 @@
             <div class="col-md-6 col-sm-12 pb-5 pr-lg-5">
                 <div class="about-text">
             
-                    <p class="font-weight-600 mb-lg-0 mb-2 wow fadenleft my-5">
-                        皆さんにとって、「 愛 」って何でしょうか？</br></br>
-
-                        「逢いたい人に触れられない」</br>
-                        
-                        「いつ逢えるんだろう」</br>
-                        
-                        「愛する人を失うかもしれない」</br>
-                        
-                        コロナ禍の中で、「愛」を感じることが減ったという声があります。</br></br>
-                        
-                        しかし一方で、会えないことで逆に、「愛」を深く感じることもあれば、リモートで話せる機会が増えて、新しい「愛」に出会うこともありました。</br>
-                    <p>
                     <p class="font-weight-600 mb-lg-0 mb-2 wow fadenleft">
-                        本展示会では、デジタルハリウッド大学、デジタルハリウッド大学院、デジタルハリウッド専門スクールの学生・有志が、様々な社会的立場・年齢・アートジャンルを越えて、十人十色の「愛」を表現します。
-                    </p>
+                        てきすと
+                        てきすと
+                        てきすと
+                        てきすと
+                        てきすと
+                        てきすと
+                        てきすと
+                        てきすと
+                        てきすと
+                    <p>
 
                 </div>
             </div>
     
         </div>
 
+        <!-- artist -->
+        <div class="row pt-lg-5" id="services" style="margin-top:20%;">
+        <div class="col-12" id="artist">
+            <h2 class="line_vertical d-none d-sm-block wow fadeInUp" style="color:#D20107;" id="web">ARTIST</h2>
+            <h2 class="col-xs-12 d-block d-sm-none wow fadeInUp" id="mobile">ARTIST</h2></div>
 
-      <!-- artist -->
-      <div class="col-12 my-5" id="artist">
-          <h2 class="line_vertical d-none d-sm-block wow fadeInUp" style="color:#D20107;" id="web">ARTIST</h2>
-          <h2 class="col-xs-12 d-block d-sm-none wow fadeInUp" id="mobile">ARTIST</h2></div>
-          
-          <div class="row pt-lg-5 mx-1" >
              <div class="col-12 pr-lg-0">
                     <div class="row">
-
-                        <!-- <div><a 
-                        data-bs-toggle="modal" href="#exampleModalToggle">
-                        
-                        </a></div> -->
-
-                        <div class="col-lg-6 services-align text-left text-lg-center mt-lg-5 mx-auto art1" style="max-width:350px;">
+                        <div class="col-lg-6 services-align  text-center" style="margin-top:5%;">
                             <div class="services-icon wow fadeInUp">
-                                <img src="image/artist/ad1.jpg" alt="" class="lazyload">
+                                <img src="image/icon.png" alt="" style="max-width:300px; overflow:hidden;">
                             </div>
-                            <p class="main-font font-light services-cat wow fadeInUp">『変わったものが好きです。』</p>
-                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">mnd</h4>
+                            <p class="main-font font-light services-cat wow fadeInUp">情報</p>
+                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">アーティスト</h4>
                         </div>
-                        
-                        <div class="col-lg-6 services-align text-left text-lg-center mx-auto art2" style="max-width:350px;">
+                        <div class="col-lg-6 services-align-last  text-center">
                             <div class="services-icon wow fadeInUp">
-                                <img src="image/artist/ad2.jpg" alt=""class="lazyload">
+                                <img src="image/icon.png" alt="" style="max-width:300px;">
                             </div>
-                            <p class="main-font font-light services-cat wow fadeInUp">Zakipeiです。よく寝ることに長けています。</p>
-                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">Zakipei</h4>
+                            <p class="main-font font-light services-cat wow fadeInUp">情報</p>
+                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">アーティスト</h4>
                         </div>
 
-
-                        <div class="col-lg-6 services-align  text-left text-lg-center mx-auto mt-lg-5 art3" style="max-width:350px;">
+                        <div class="col-lg-6 services-align  text-center" style="margin-top:5%;">
                             <div class="services-icon wow fadeInUp">
-                                <img src="image/artist/ad3.png" alt="" class="lazyload">
+                                <img src="image/icon.png" alt="" style="max-width:300px; overflow:hidden;">
                             </div>
-                            <p class="main-font font-light services-cat wow fadeInUp">ちょっとえっちなイラストレーター。
-                                えっちした日の朝、隣で寝ている君を起こさないように布団を出るけど結局起こしちゃって「ごめん、起こしちゃった。」て言いながら頭撫でる流れ全部好き。
-                                </p>
-                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">七三月</h4>
+                            <p class="main-font font-light services-cat wow fadeInUp">情報</p>
+                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">アーティスト</h4>
                         </div>
-
-                        <div class="col-lg-6 services-align  text-left text-lg-center mx-auto art4" style="max-width:350px;">
+                        <div class="col-lg-6 services-align-last  text-center">
                             <div class="services-icon wow fadeInUp">
-                                <img src="image/artist/ad4.jpg" alt="" class="lazyload">
+                                <img src="image/about.png" alt="" style="max-width:300px;">
                             </div>
-                            <p class="main-font font-light services-cat wow fadeInUp">
-                                マスク越しコミュニケーションのストレスをわくわくに変えられるのか？
-                                というテーマでメディアアートを制作している。
-                                コロナワクチンの正しい知識を普及する「コロワくん」が大好き。</p>
-                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">歌って踊る麻酔科医tiktoker</br>
-                                「みおしん先生」</h4>
+                            <p class="main-font font-light services-cat wow fadeInUp">情報</p>
+                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">アーティスト</h4>
                         </div>
-
-                        <div class="col-lg-6 services-align  text-left text-lg-center mx-auto mt-lg-5 art5" style="max-width:350px;">
-                            <div class="services-icon wow fadeInUp">
-                                <img src="image/artist/ad5.png" alt="" class="lazyload">
-                            </div>
-                            <p class="main-font font-light services-cat wow fadeInUp">骨と階段と言葉遊び。</p>
-                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">OX</h4>
-                        </div>
-
-                        <div class="col-lg-6 services-align  text-left text-lg-center mx-auto art6" style="max-width:350px;">
-                            <div class="services-icon wow fadeInUp">
-                                <img src="image/artist/ad6.JPG" alt="" class="lazyload">
-                            </div>
-                            <p class="main-font font-light services-cat wow fadeInUp">デジタルハリウッド大学学部2年
-                                好奇心旺盛、世界に羽ばたきたいです。</p>
-                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">Chikage</h4>
-                        </div>
-
-                        <div class="col-lg-6 services-align  text-left text-lg-center mx-auto art7" style="max-width:350px;">
-                            <div class="services-icon wow fadeInUp">
-                                <img src="image/artist/ad7.jpg" alt="" class="lazyload">
-                            </div>
-                            <p class="main-font font-light services-cat wow fadeInUp">大切にすればするほど遠くなる距離に何と名前をつけますか？
-                                    君の愛してるに慣れてしまわぬよう溢れる想いは溢れさせておくのだと。
-                                    2001年8月生まれ。東京で生まれ4歳から栃木で成長する。
-                                    現在は東京で社会問題、リアルな恋模様を主にテーマとし制作活動を行なっている。
-                                    2021年2月新作短編映画公開。</p>
-                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">mao-miyamoto</h4>
-                        </div>
-
-                        <div class="col-lg-6 services-align  text-left text-lg-center mx-auto mt-lg-5 art8"  style="max-width:350px;">
-                            <div class="services-icon wow fadeInUp">
-                                <img src="image/artist/ad8.jpg" alt="" class="lazyload">
-                            </div>
-                            <p class="main-font font-light services-cat wow fadeInUp">Art、Design、Business、Technology、Engineering。</br>
-                            それらをつなげていった先におもしろいものを作りたいと思っている社会人大学院１年生です。</p>
-                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">tomo8yaoki</h4>
-                        </div>
-
-                        <div class="col-lg-6 services-align  text-left text-lg-center mx-auto art9" style="max-width:350px;">
-                            <div class="services-icon wow fadeInUp">
-                                <img src="image/artist/ad9.jpg" alt="" class="lazyload">
-                            </div>
-                            <p class="main-font font-light services-cat wow fadeInUp">「デジタルハリウッド大学学部3年生で専攻はプログラミングとビジネス。昨年、メディアアーティスト 落合陽一氏のもとでメディアアートを授業で学び、アート領域での活動を始める。」</p>
-                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">朝日 浩志 / Koshi Asahi</h4>
-                        </div>
-
-                        <div class="col-lg-6 services-align  text-left text-lg-center mx-auto mt-lg-5 art10" style="max-width:350px;">
-                            <div class="services-icon wow fadeInUp">
-                                <img src="image/artist/ad10.png" alt="" class="lazyload">
-                            </div>
-                            <p class="main-font font-light services-cat wow fadeInUp">好奇心に従って行き当たりばったりに生きる何でも屋。本職はwebエンジニア。デジタルだけの世界が狭く感じ、デジタルとリアルを融合した作品に挑戦中。わかりきったことで埋め尽くされた不自由のない人生より、わからないことだらけで泥まみれの人生を。</p>
-                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">fumiyatake</h4>
-                        </div>
-
-                        <div class="col-lg-6 services-align  text-left text-lg-center mx-auto art11" style="max-width:350px;">
-                            <div class="services-icon wow fadeInUp">
-                                <img src="image/artist/ad11.jpg" alt="" class="lazyload">
-                            </div>
-                            <p class="main-font font-light services-cat wow fadeInUp">自己と社会の交差点に存在するノイズを見つめる映像作家</p>
-                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">藤吉香帆</h4>
-                        </div>
-
-                        <div class="col-lg-6 services-align  text-left text-lg-center mx-auto mt-lg-5 art12" style="max-width:350px;">
-                            <div class="services-icon wow fadeInUp">
-                                <img src="image/artist/ad12.png" alt="" class="lazyload">
-                            </div>
-                            <p class="main-font font-light services-cat wow fadeInUp">江戸時代中頃,慕っている人を寿司に誘う「慕寿司」というものが流行ったそうです.ウソです.
-                                慕寿司ください(チョコでも可)</p>
-                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">洲志郎</h4>
-                        </div>
-
-                        <div class="col-lg-6 services-align  text-left text-lg-center mx-auto art13" style="max-width:350px;">
-                            <div class="services-icon wow fadeInUp">
-                                <img src="image/artist/ad13.png" alt="" class="lazyload">
-                            </div>
-                            <p class="main-font font-light services-cat wow fadeInUp">正々堂々。</p>
-                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">HIT4.9</h4>
-                        </div>
-
-                        <div class="col-lg-6 services-align  text-left text-lg-center mx-auto mt-lg-5 art14" style="max-width:350px;">
-                            <div class="services-icon wow fadeInUp">
-                                <img src="image/artist/ad14.png" alt="" class="lazyload">
-                            </div>
-                            <p class="main-font font-light services-cat wow fadeInUp">デジタルハリウッド大学学部１年生</p>
-                            <h4 class="alt-font text-capitalize small-font wow fadeInUp">YANG DAEUN</h4>
-                        </div>
-
+                    
                         
                     </div>
 
@@ -591,13 +447,11 @@
                     <div class="map-adress wow fadeInleft d-none d-sm-none d-md-block">
                         <div class="map-adress-details wow fadeInUp">
                      
-                            <p class="main-font">原宿 デザインフェスタギャラリー</br>
-                                〒150-0001 東京都渋谷区神宮前3-20-2</br>
-                                TEL : 03-3479-1442 (OPEN 10:30 – 19:30)</p>
-                                <p>
-                                    <a href="https://g.page/DesignFestaGallery?share" target="_blank" rel="noopener noreferrer">
-                                        Google_map <i class="fas fa-map-marker-alt px-1"></i>
-                                    </a></p>
+                            <p class="main-font">GALLERY EAST</br>
+                                〒150-0001 東京都渋谷区神宮前3-20-2</p>
+                            <p class="main-font">GALLERY WEST</br>
+                                〒150-0001 東京都渋谷区神宮前3-20-18</p>
+                            <p class="main-font">TEL : 03-3479-1442 (OPEN 11:00 – 20:00)</p>
                         </div>     
                     </div>
 
@@ -606,16 +460,14 @@
                         <img src="image/address.jpg" alt="">
                     </div>
                     <div class="col-sm-12 wow fadeInleft d-sm-block d-md-none wow fadeInUp">
-                        <div class="map-adress-details wow fadeInUp">
-                     
-                            <p class="main-font">原宿デザインフェスタギャラリー</br></br>
-                                〒150-0001 </br>東京都渋谷区神宮前3-20-2</br></br>
-                                TEL : 03-3479-1442 </br>(OPEN 10:30 – 19:30)</p>
-                            <p>
-                                <a href="https://g.page/DesignFestaGallery?share" target="_blank" rel="noopener noreferrer">
-                                    Google_map <i class="fas fa-map-marker-alt px-1"></i>
-                                </a></p>
-                        </div>   
+                        <div class="wow fadeInUp">
+                
+                            <p class="main-font">GALLERY EAST</br>
+                                〒150-0001 東京都渋谷区神宮前3-20-2</p>
+                            <p class="main-font">GALLERY WEST</br>
+                                〒150-0001 東京都渋谷区神宮前3-20-18</p>
+                            <p class="main-font">TEL : 03-3479-1442 (OPEN 11:00 – 20:00)</p>
+                        </div>     
                     </div>
 
                 </div>
@@ -628,64 +480,36 @@
 </section>
 <!-- Map Contact -->
 
-<!-- support -->
-<section class="text-center text-lg-left mr-5 ml-5" id="support">
+<!-- Instagram -->
+<section class="text-center text-lg-left mr-5 ml-5" id="instagram">
     <div class="container-fluid">
         <div class="row align-items-center wow fadeIn">
             <div class="col-lg-2">
 
-                <h2 class=" d-block d-sm-block d-md-none wow fadeInUp" id="mobile">SUPPORT</h2>
+                <h2 class=" d-block d-sm-block d-md-none wow fadeInUp" id="support">SUPPORT</h2>
                 <h2 class="line_vertical d-none d-sm-none d-md-block d-lg-block wow fadeInUp" id="web">SUPPORT</h2>
                 
                 <span class="hr-line mt-4 mb-5 ml-lg-0"></span>
             </div>
-            <div class="col-lg-4 col-xs-12 company_logo">
-                <a href="https://teamcores.co.jp">
-                <img src="image/logo_min.png" alt="" style="width:50%;padding-top:10%;" class="lazyload"></a>
+            <div class="col-lg-4 col-xs-12">
+                <img src="image/logo_min.png" alt="" style="width:50%;padding-top:10%;">
                 <span class="hr-line mt-4 mb-5 ml-lg-0"></span>
             </div>
             <div class="col-lg-6 d-sm-none d-mb-block d-lg-block">
-                <a href="https://teamcores.co.jp">
+                <!-- <p class="alt-font text-lg-right">@--CONTACT</p> -->
                 <p class="alt-font text-lg-left wow fadeInUp">
                     今の「好き」を未来の「最高」へ</br>
                     社会の良き在り方や幸せの形を追求する、
                     未来の世界を拓く皆様へ。
                     CORESは適切かつ十分な活動のサポートとサービスを提供し
-                    社会全体の良き在り方に貢献します。</p></a>
+                    社会全体の良き在り方に貢献します。</p>
             </div>
         </div>
+
     </div>
 </section>
-<!-- Ends support -->
+<!-- Ends Instagram -->
 
-<!-- <i class="fab fa-instagram-square"></i> -->
-  <!-- SNS -->
-  <section class="text-center text-lg-left mr-5 ml-5" id="support">
-    <div class="container-fluid">
-        <div class="row align-items-center wow fadeIn">
-
-            <div class="row col-12 sns_text mx-3"id="sns">
-                <div class="col-lg-2">
-                    <h2 class=" d-block d-sm-block d-md-none wow fadeInUp" id="mobile">SNS</h2>
-                    <h2 class="line_vertical d-none d-sm-none d-md-block d-lg-block wow fadeInUp" id="web">SNS</h2>
-                    
-                    <span class="hr-line mt-4 mb-5 ml-lg-0"></span>
-                </div>
-            
-                <div class="col-lg-4 d-none d-sm-none d-md-block d-lg-block wow fadeInUp">
-                    <i class="fab fa-twitter-square sns_icon"></i></br>
-                    <!-- <i class="fab fa-instagram-square sns_icon"></i> -->
-                </div>
-                <div class="col-12 col-lg-6 wow fadeInUp">
-                <a class="twitter-timeline lazyload" data-width="" data-height="600" data-theme="dark" href="https://twitter.com/mediaartdh2021?ref_src=twsrc%5Etfw">Tweets by mediaartdh2021</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></br>
-
-                <a href="https://twitter.com/intent/tweet?screen_name=mediaartdh2021&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @mediaartdh2021</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-
-            </div> 
-        </div>
-    </div>
-</section>
 
 <!-- Site Fotter -->
 <section class="pt-5 pb-5 text-center text-lg-left mr-5 ml-5 wow fadeInDown">
@@ -694,68 +518,14 @@
         <div class="row">
             <div class="foter-logo">
                 <img src="image/icon.png" alt="img" class="m-3" style="width:100px;">
-                <p class="copyrights wow fadeInUp no-margin" data-wow-delay="350ms"> Copyright 2022 「〇〇=愛展」 rights
-                    reserved. <i class="fas fa-heart px-1"></i></p>
+                <p class="copyrights wow fadeInUp no-margin" data-wow-delay="350ms"> Copyright 2021 Love_exhibition rights
+                    reserved. <img src="img/heart.png" alt="png"> 
+                    made by <a href="http://www.koichihatakeyama.com">koichi_hatakeyama</a></p>
             </div>
         </div>
     </div>
 </section>
 <!-- Ends Site Fotter -->
-
-<!-- modal -->
-
-<!-- news1 -->
-<div class="modal fade" id="N_modal1" role="dialog">
-    <div class="modal-dialog modal-content mx-auto" style="background-color: black;max-width:800px;font-size:1em; color:#fff;">
-        <div class="m-3"><i class="fas fa-window-close" class="close" data-dismiss="modal" aria-label="Close"></i>
-          </div>
-    <div class="m-3">
-        <p>公式webサイトがオープンしました。</br>
-        新しい情報を更新していくので、ぜひチェックしてみてください。</p>
-    </div>
-    </div>
-</div>
-
-<!-- news2 -->
-<div class="modal fade" id="N_modal2" role="dialog">
-    <div class="modal-dialog modal-content mx-auto" style="background-color: black;max-width:800px;font-size:1em; color:#fff;">
-        <div class="m-3"><i class="fas fa-window-close" class="close" data-dismiss="modal" aria-label="Close"></i>
-          </div>
-    <div class="m-3">
-        <p>クラウドファンディングが始まりました。</br>
-            ぜひご支援お願いします。</br>
-        新しい情報を更新していくので、ぜひチェックしてみてください。</p>
-        <iframe class="hatenablogcard" style="width:100%;height:120px;max-width:680px;" title="" src="https://hatenablog-parts.com/embed?url=https://camp-fire.jp/projects/view/543526" width="300" height="150" frameborder="0" scrolling="no"></iframe>
-    </div>
-    </div>
-</div>
-
-<!-- news3 -->
-<div class="modal fade" id="N_modal3" role="dialog">
-    <div class="modal-dialog modal-content mx-auto" style="background-color: black;max-width:800px;font-size:1em; color:#fff;">
-        <div class="m-3"><i class="fas fa-window-close" class="close" data-dismiss="modal" aria-label="Close"></i>
-          </div>
-    <div class="m-3">
-        <p>デザインフェスタギャラリーのスケジュールに掲載されました。</br>
-        </p>
-        <iframe class="hatenablogcard" style="width:100%;height:120px;max-width:680px;" title="" src="https://hatenablog-parts.com/embed?url=https://designfestagallery.com/form_jp/gallery/exhibitors/detail.php?id=Y000049740&y=2022&m=02&d=11" width="300" height="150" frameborder="0" scrolling="no"></iframe>
-    </div>
-    </div>
-</div>
-
-<!-- news4 -->
-<div class="modal fade" id="N_modal4" role="dialog">
-    <div class="modal-dialog modal-content mx-auto" style="background-color: black;max-width:800px;font-size:1em; color:#fff;">
-        <div class="m-3"><i class="fas fa-window-close" class="close" data-dismiss="modal" aria-label="Close"></i>
-          </div>
-    <div class="m-3">
-        <p>お申込みフォーム公開されました。</br>
-            ご予約はこちらのフォームより、登録をお願いいたします。
-        </p>
-        <iframe class="hatenablogcard" style="width:100%;height:120px;max-width:680px;" title="" src="https://hatenablog-parts.com/embed?url=https://forms.gle/cwzkdbFeHYsBnSTP7" width="300" height="150" frameborder="0" scrolling="no"></iframe>
-    </div>
-    </div>
-</div>
 
 
 <script src="js/jquery-2.2.3.min.js"></script>
@@ -791,9 +561,6 @@
 
 <script src="js/main.js"></script>
 <script src="sketch_moji/mySketch.js" type="text/javascript"></script><script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js" type="text/javascript"></script><script src="sketch_moji/p5-matter.min.js" type="text/javascript"></script><script src="sketch_moji/matter.min.js" type="text/javascript"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lazyload/2.0.3/lazyload-min.js"></script>
-<script>lazuload();</script>
 
 </body>
 </html>
